@@ -348,17 +348,29 @@ bars.forEach(bar => { bar.style.width = '0%'; barObserver.observe(bar); });
 const sections = document.querySelectorAll('section[id], footer[id]');
 const navAnchors = document.querySelectorAll('.nav-link');
 
-const navObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const id = entry.target.getAttribute('id');
-      navAnchors.forEach(a => {
-        a.classList.toggle('active', a.getAttribute('href') === '#' + id);
-      });
-    }
+function updateActiveNav() {
+  const triggerY = window.scrollY + window.innerHeight * 0.4;
+  const atBottom = (window.innerHeight + window.scrollY) >= document.body.scrollHeight - 10;
+  let current = '';
+
+  if (atBottom) {
+    // If we're at the very bottom, always highlight the last section (footer #contact)
+    current = sections[sections.length - 1].getAttribute('id');
+  } else {
+    sections.forEach(section => {
+      if (triggerY >= section.offsetTop) {
+        current = section.getAttribute('id');
+      }
+    });
+  }
+
+  navAnchors.forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
   });
-}, { threshold: 0.35 });
-sections.forEach(s => navObserver.observe(s));
+}
+
+window.addEventListener('scroll', updateActiveNav, { passive: true });
+updateActiveNav(); // run once on load so the correct link is active on page load
 
 // ── BACK TO TOP ──
 const backToTop = document.getElementById('backToTop');
