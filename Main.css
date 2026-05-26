@@ -105,7 +105,7 @@ nav {
   inset: 0;
   background-image:
     linear-gradient(105deg, rgba(34,60,20,0.85) 0%, rgba(34,60,20,0.55) 50%, rgba(34,60,20,0.15) 100%),
-    url('picture/Background.png');
+    url('picture/background2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,7 +273,7 @@ nav {
 /* ── WHY PAMPANGA ── */
 .why-section {
   background: var(--bg-cream);
-  padding: 90px 60px;
+  padding: 160px 60px;
 }
 .why-inner {
   display: grid;
@@ -370,7 +370,7 @@ nav {
 footer {
   background: var(--green-dark);
   color: rgba(255,255,255,0.75);
-  padding: 60px 60px 0;
+  padding: 120px 60px 0;
 }
 .footer-grid {
   display: grid;
