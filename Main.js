@@ -1,12 +1,12 @@
 // ── MODAL DATA ──
 const modalData = {
   poultry: {
-    tag: "Livestock — Poultry",
-    title: "Poultry (Broilers And Layers)",
+    tag: "Livestock — Chicken",
+    title: "Chicken (Broilers And Layers)",
     img: "picture/chicken.png",
     content: `
-      <h4>Poultry in Pampanga</h4>
-      <p>Pampanga is one of the leading poultry-producing provinces in the Philippines. Sitting at the center of Central Luzon, the province is a critical supply hub that feeds Metro Manila and nearby regions. Poultry farming is one of the most significant agricultural sectors in the region, supporting thousands of local people from large commercial growers to tiny home farmers.</p>
+      <h4>Chicken in Pampanga</h4>
+      <p>Pampanga is one of the leading chicken-producing provinces in the Philippines. Sitting at the center of Central Luzon, the province is a critical supply hub that feeds Metro Manila and nearby regions. Chicken farming is one of the most significant agricultural sectors in the region, supporting thousands of local people from large commercial growers to tiny home farmers.</p>
 
       <h4>What is a Broiler?</h4>
       <p>A <strong>broiler</strong> is a chicken specifically raised for its meat. Broilers are bred to grow quickly, typically reaching market weight in just 35 to 42 days. They are known for their tender, white meat and are the primary source of chicken sold in wet markets, supermarkets, and fast-food restaurants across the country. In Pampanga, broiler farming is largely done through contract growing arrangements between local farmers and large poultry corporations.</p>
@@ -15,7 +15,7 @@ const modalData = {
       <p>A <strong>layer</strong> is a hen raised specifically for egg production rather than meat. A healthy, well-managed layer hen can produce more than 300 eggs in a single year. These eggs supply wet markets, grocery stores, bakeries, and food manufacturers throughout Luzon. Pampanga's proximity to major feed mills and its strong road network make it an ideal location for layer operations.</p>
 
       <h4>How Do You Raise Them?</h4>
-      <p>Raising poultry in Pampanga follows a structured process to ensure healthy birds and consistent production:</p>
+      <p>Raising chicken in Pampanga follows a structured process to ensure healthy birds and consistent production:</p>
       <ul>
         <li><strong>Housing:</strong> Chickens are kept in enclosed, well-ventilated poultry houses that protect them from weather, predators, and disease. Footbaths, access restrictions, and disinfection are examples of biosecurity procedures that are closely adhered to.</li>
         <li><strong>Day-Old Chicks  :</strong> Farming starts with the purchase of day-old chicks from accredited hatcheries. Broilers are placed in a brooder house with controlled temperature and lighting for the first week.</li>
@@ -110,7 +110,7 @@ const modalData = {
       <p>Cattle raising is a developing livestock industry in Pampanga and throughout Central Luzon, however it is not as widely used as poultry or swine. Cattle produce dung for organic fertilizer, leather for industry, and beef for local consumption. Using cattle to graze on fallow fields and turning their waste into compost for rice and vegetable crops, small-scale cattle farmers sometimes combine their operations with crop production.</p>
 
       <h4>What is a Beef Cattle?</h4>
-      <p>Breeds of cattle raised mainly for meat production are known as <strong>beef cattle</strong>. The Brahman, which is valued for its ability to withstand heat and sickness, Simmental, and regional crossbreeds are common breeds in the Philippines. Usually during the course of 18 to 24 months, beef cattle are raised to a slaughter weight of 350-500 kg. Their meat is supplied to supermarkets, wet markets, and the rapidly expanding processed meat industry.</p>
+      <p>Breeds of cattle raised mainly for meat production are known as <strong>beef cattle</strong>. The Brahman, which is valued for its ability to withstand heat and sickness, regional crossbreeds are common breeds in the Philippines. Usually during the course of 18 to 24 months, beef cattle are raised to a slaughter weight of 350-500 kg. Their meat is supplied to supermarkets, wet markets, and the rapidly expanding processed meat industry.</p>
 
       <h4>What is a Dairy Cow?</h4>
       <p>A female cattle breed raised especially for milk is called a <strong>dairy cow</strong>. In the Philippines, <strong>Holstein-Friesian</strong> and <strong>Jersey</strong> crossbreeds that are suitable for tropical climates are popular dairy breeds. Ten to twenty liters of milk can be produced daily by a productive dairy cow. Although cow's milk is becoming more and more popular for the production of fresh milk, cheese, and dairy products, carabao milk still rules the local dairy scene.</p>
@@ -191,7 +191,7 @@ const modalData = {
  
       <h4>What Do They Eat?</h4>
       <ul>
-        <li><strong>Grasses and Legumes:</strong> The main forages are guinea grass, paragrass, and napier grass. To increase protein intake, legumes such as rensonii, kakawate, and ipil-ipil are combined. Giving goats tree leaves and mixed forage increases the variety of their diet since they prefer browsing, or eating shrubs and leaves, over grazing.</li>
+        <li><strong>Forages and Legumes:</strong> The main forages are guinea grass, paragrass, and napier grass. To increase protein intake, legumes such as rensonii, kakawate, and ipil-ipil are combined. Giving goats tree leaves and mixed forage increases the variety of their diet since they prefer browsing, or eating shrubs and leaves, over grazing.</li>
         <li><strong>Crop By-Products:</strong> Excellent low-cost supplements include banana leaves and trunks, corn stalks, sugarcane tops, camote vines, and cassava leaves. For home farmers, these drastically lower feed expenses.</li>
         <li><strong>Concentrate Feed:</strong> To address their increased nutritional needs, growing children, pregnant does, and lactating dairy goats are given a small daily ration (200 to 500 grams) of concentrate, which is produced from rice bran, corn, copra meal, and soybean meal.</li>
         <li><strong>Minerals:</strong> There should always be a salt block or loose mineral mix on hand. In order to prevent metabolic problems, calcium and phosphorus are particularly crucial for developing children and pregnant women.</li>
